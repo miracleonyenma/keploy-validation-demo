@@ -1,0 +1,15 @@
+🐰 Keploy: 2025-09-07T13:55:07+01:00 	[34mINFO[0m	Starting keploy in docker with image	{"image:": "ghcr.io/keploy/keploy:v2.10.15"}
+🐰 Keploy: 2025-09-07T13:55:07+01:00 	[34mINFO[0m	Starting keploy in docker with default context, as that is the current context.
+🐰 Keploy: 2025-09-07T12:55:08Z 	[34mINFO[0m	detected that Keploy is running in a docker container
+🐰 Keploy: 2025-09-07T12:55:08Z 	[34mINFO[0m	running before docker setup hook - oss	{"cmd": "docker run -p 8080:8080 --name keploy-validation-container --network keploy-network keploy-validation-demo"}
+🐰 Keploy: 2025-09-07T12:55:08Z 	[34mINFO[0m	trying to inject network:keploy-network to the keploy container
+🐰 Keploy: 2025-09-07T12:55:08Z 	[34mINFO[0m	Successfully injected network to the keploy container	{"Keploy container": "keploy-v2", "appNetwork": "keploy-network", "keploy container ip": "172.19.0.2"}
+🐰 Keploy: 2025-09-07T12:55:08Z 	[34mINFO[0m	keploy initialized and probes added to the kernel.
+🐰 Keploy: 2025-09-07T12:55:09Z 	[34mINFO[0m	starting UDP DNS server at addr :26789
+🐰 Keploy: 2025-09-07T12:55:09Z 	[34mINFO[0m	starting TCP DNS server at addr :26789
+🐰 Keploy: 2025-09-07T12:55:09Z 	[34mINFO[0m	Keploy has taken control of the DNS resolution mechanism, your application may misbehave if you have provided wrong domain name in your application code.
+🐰 Keploy: 2025-09-07T12:55:09Z 	[34mINFO[0m	Proxy started at port:16789
+🐰 Keploy: 2025-09-07T12:57:56Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/miracleio/Documents/writing/keploy/validation-testing-in-software-testing/keploy-validation-demo/keploy/test-set-0/tests", "testcase name": "test-1"}
+🐰 Keploy: 2025-09-07T12:57:56Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/miracleio/Documents/writing/keploy/validation-testing-in-software-testing/keploy-validation-demo/keploy/test-set-0/tests", "testcase name": "test-2"}
+🐰 Keploy: 2025-09-07T12:57:56Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/miracleio/Documents/writing/keploy/validation-testing-in-software-testing/keploy-validation-demo/keploy/test-set-0/tests", "testcase name": "test-3"}
+🐰 Keploy: 2025-09-07T12:57:56Z 	[34mINFO[0m	🟠 Keploy has captured test cases for the user's application.	{"path": "/Users/miracleio/Documents/writing/keploy/validation-testing-in-software-testing/keploy-validation-demo/keploy/test-set-0/tests", "testcase name": "test-4"}
